@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.nft-card {
+  display: flex;
+  background-color: hsl(216, 50%, 16%);
+  height: 450px;
+  width: 280px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.image-nft {
+  display: flex;
+  height: 225px;
+  width: 240px;
+  margin: 18px;
+  border-radius: 8px;
+}
+.nombre_de_nft {
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  margin: 0px 24px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.informacion {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  padding: 12px 24px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.eth {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+  padding: 12px 24px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.days {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  padding: 12px 18px;
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.adicionales {
+  display: flex;
+
+  justify-content: space-between;
+}
+.ultimo {
+  display: flex;
+  align-items: center;
+  margin: 18px;
+  justify-content: flex-start;
+}
+.nombre_del_creador {
+  display: flex;
+  padding: 0px 5px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.creado_por {
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.icono-ethereum {
+  display: flex;
+  width: 10px;
+  height: 15px;
+  padding: 0px 5px;
+}
+.icono-clock {
+  width: 15px;
+  height: 15px;
+  padding: 0px 5px;
+}
+.icono-avatar {
+  width: 22px;
+  margin: 0px 10px;
+  height: 22px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.line {
+    width: 240px; 
+    height: 0.2px; 
+    background:  hsl(215, 32%, 27%);
+    margin-left: 24px;
+  }
+  
